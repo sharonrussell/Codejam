@@ -1,0 +1,10 @@
+C:\Git\Codejam\Code\bin\Debug\Code.dll
+C:\Git\Codejam\Code\bin\Debug\Code.pdb
+C:\Git\Codejam\Code\obj\Debug\Code.csprojResolveAssemblyReference.cache
+C:\Git\Codejam\Code\obj\Debug\Code.dll
+C:\Git\Codejam\Code\obj\Debug\Code.pdb
+C:\Git\Codejam\CSharp\Code\bin\Debug\Code.dll
+C:\Git\Codejam\CSharp\Code\bin\Debug\Code.pdb
+C:\Git\Codejam\CSharp\Code\obj\Debug\Code.csprojResolveAssemblyReference.cache
+C:\Git\Codejam\CSharp\Code\obj\Debug\Code.dll
+C:\Git\Codejam\CSharp\Code\obj\Debug\Code.pdb

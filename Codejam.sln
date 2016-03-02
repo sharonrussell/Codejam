@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "CSharp\Tests\Tests.csproj", "{ABE27AC4-8E93-4ADC-B7A0-34B1CA3FEA55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code", "CSharp\Code\Code.csproj", "{FB67EC55-79F0-4F3D-8645-553BE0C30DCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rspec", "rspec", "{8503288B-8B3A-47DC-921D-8A71DA4EB942}"
+	ProjectSection(SolutionItems) = preProject
+		Ruby\rspec\code.rb = Ruby\rspec\code.rb
+		Ruby\rspec\code_spec.rb = Ruby\rspec\code_spec.rb
+		Ruby\rspec\Gemfile = Ruby\rspec\Gemfile
+		Ruby\rspec\Gemfile.lock = Ruby\rspec\Gemfile.lock
+		Ruby\rspec\README.md = Ruby\rspec\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test_unit", "test_unit", "{D0FB545B-9D0B-4D6D-924A-C4DA552A466E}"
+	ProjectSection(SolutionItems) = preProject
+		Ruby\test_unit\code.rb = Ruby\test_unit\code.rb
+		Ruby\test_unit\Gemfile = Ruby\test_unit\Gemfile
+		Ruby\test_unit\Gemfile.lock = Ruby\test_unit\Gemfile.lock
+		Ruby\test_unit\README.md = Ruby\test_unit\README.md
+		Ruby\test_unit\test_code.rb = Ruby\test_unit\test_code.rb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ruby", "Ruby", "{76A9B868-0D31-4422-B428-EB09795EC03B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Javascript", "Javascript", "{A4FE453B-8237-4280-80AE-021B0B8F27B7}"
+	ProjectSection(SolutionItems) = preProject
+		Web\code.js = Web\code.js
+		Web\code_spec.js = Web\code_spec.js
+		Web\index.html = Web\index.html
+		Web\README.md = Web\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{B57D5660-9071-4A67-8359-942DBCD966E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jasmine-1.3.1", "jasmine-1.3.1", "{8E982696-9B9B-40A6-9C14-4BA3341F5876}"
+	ProjectSection(SolutionItems) = preProject
+		Web\lib\jasmine-1.3.1\jasmine-html.js = Web\lib\jasmine-1.3.1\jasmine-html.js
+		Web\lib\jasmine-1.3.1\jasmine.css = Web\lib\jasmine-1.3.1\jasmine.css
+		Web\lib\jasmine-1.3.1\jasmine.js = Web\lib\jasmine-1.3.1\jasmine.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{732122F0-A153-440C-ACA8-B3E435DE486C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABE27AC4-8E93-4ADC-B7A0-34B1CA3FEA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE27AC4-8E93-4ADC-B7A0-34B1CA3FEA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE27AC4-8E93-4ADC-B7A0-34B1CA3FEA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE27AC4-8E93-4ADC-B7A0-34B1CA3FEA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB67EC55-79F0-4F3D-8645-553BE0C30DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB67EC55-79F0-4F3D-8645-553BE0C30DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB67EC55-79F0-4F3D-8645-553BE0C30DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB67EC55-79F0-4F3D-8645-553BE0C30DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABE27AC4-8E93-4ADC-B7A0-34B1CA3FEA55} = {732122F0-A153-440C-ACA8-B3E435DE486C}
+		{FB67EC55-79F0-4F3D-8645-553BE0C30DCF} = {732122F0-A153-440C-ACA8-B3E435DE486C}
+		{8503288B-8B3A-47DC-921D-8A71DA4EB942} = {76A9B868-0D31-4422-B428-EB09795EC03B}
+		{D0FB545B-9D0B-4D6D-924A-C4DA552A466E} = {76A9B868-0D31-4422-B428-EB09795EC03B}
+		{B57D5660-9071-4A67-8359-942DBCD966E7} = {A4FE453B-8237-4280-80AE-021B0B8F27B7}
+		{8E982696-9B9B-40A6-9C14-4BA3341F5876} = {B57D5660-9071-4A67-8359-942DBCD966E7}
+	EndGlobalSection
+EndGlobal
