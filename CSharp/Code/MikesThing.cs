@@ -13,5 +13,11 @@ namespace Code
             IRestResponse<List<dynamic>> response = client.Execute<List<dynamic>>(request);
             return response.Data;
         }
+
+        public List<string> GetOpeningCrawls()
+        {
+            var openingCrawls = new List<string>();
+            return openingCrawls;
+        }
     }
 }
