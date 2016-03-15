@@ -14,11 +14,11 @@ namespace Code
             {
                 {"C-3P0", "Sergei" },
                 {"R2-D2", "Oleg" },
-                {"Darth Vader", "Vassilli" },
+                {"Vader", "Vassilli" },
                 {"Leia", "Maiya" },
-                {"Luke Skywalker", "Bogdan" },
+                {"Luke", "Bogdan" },
                 {"Obi-wan", "Alexander" },
-                {"Han Solo", "Yakov" },
+                {"Solo", "Yakov" },
             };
 
             foreach (var key in names.Keys)

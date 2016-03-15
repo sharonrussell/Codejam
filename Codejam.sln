@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "CSharp\Tests\Tests.csproj", "{ABE27AC4-8E93-4ADC-B7A0-34B1CA3FEA55}"
 EndProject
@@ -46,6 +46,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jasmine-1.3.1", "jasmine-1.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{732122F0-A153-440C-ACA8-B3E435DE486C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsApp", "StarWarsApp\StarWarsApp.csproj", "{A89E4C48-B2A0-444B-8D48-CB448C662073}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +62,10 @@ Global
 		{FB67EC55-79F0-4F3D-8645-553BE0C30DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB67EC55-79F0-4F3D-8645-553BE0C30DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB67EC55-79F0-4F3D-8645-553BE0C30DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89E4C48-B2A0-444B-8D48-CB448C662073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89E4C48-B2A0-444B-8D48-CB448C662073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89E4C48-B2A0-444B-8D48-CB448C662073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89E4C48-B2A0-444B-8D48-CB448C662073}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,5 +77,6 @@ Global
 		{D0FB545B-9D0B-4D6D-924A-C4DA552A466E} = {76A9B868-0D31-4422-B428-EB09795EC03B}
 		{B57D5660-9071-4A67-8359-942DBCD966E7} = {A4FE453B-8237-4280-80AE-021B0B8F27B7}
 		{8E982696-9B9B-40A6-9C14-4BA3341F5876} = {B57D5660-9071-4A67-8359-942DBCD966E7}
+		{A89E4C48-B2A0-444B-8D48-CB448C662073} = {732122F0-A153-440C-ACA8-B3E435DE486C}
 	EndGlobalSection
 EndGlobal
