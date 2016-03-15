@@ -8,7 +8,7 @@ namespace Code
 {
     public class NameTranslator
     {
-        public string Translate(string character)
+        public string Translate(string openingtext)
         {
             var names = new Dictionary<string, string>
             {
@@ -21,7 +21,12 @@ namespace Code
                 {"Han Solo", "Yakov" },
             };
 
-            return names[character];
+            foreach (var key in names.Keys)
+            {
+                openingtext = openingtext.Replace(key, names[key]);
+            }
+
+            return openingtext;
         }
     }
 }
