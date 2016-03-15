@@ -44,8 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Films.cs" />
     <Compile Include="MikesThing.cs" />
-    <Compile Include="Models\Film.cs" />
     <Compile Include="NameTranslator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
