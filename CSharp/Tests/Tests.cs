@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using Code;
+using NUnit.Framework;
 
 namespace Tests
 {
