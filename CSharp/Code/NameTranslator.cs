@@ -19,6 +19,7 @@ namespace Code
                 {"Luke", "Bogdan" },
                 {"Obi-wan", "Alexander" },
                 {"Solo", "Yakov" },
+                {"Naboo", "Meerkat Manor" },
             };
 
             foreach (var key in names.Keys)
