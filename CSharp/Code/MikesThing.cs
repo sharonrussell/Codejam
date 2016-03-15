@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using Code.Models;
 using RestSharp;
 
 namespace Code
@@ -7,17 +9,17 @@ namespace Code
     {
         private readonly RestClient client = new RestClient("http://swapi.co/api/");
 
-        public List<dynamic> GetFilms()
+        public Films GetFilms()
         {
             RestRequest request = new RestRequest("films", Method.GET);
-            IRestResponse<List<dynamic>> response = client.Execute<List<dynamic>>(request);
+            IRestResponse<Films> response = client.Execute<Films>(request);
             return response.Data;
         }
 
         public List<string> GetOpeningCrawls()
         {
-            var openingCrawls = new List<string>();
-            return openingCrawls;
+            var films = GetFilms();
+            return films.results.Select(r => r.opening_crawl).ToList();
         }
     }
 }

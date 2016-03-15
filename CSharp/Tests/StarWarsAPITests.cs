@@ -16,7 +16,7 @@ namespace Tests
         {
             var sut = new MikesThing();
 
-            var output = sut.GetFilms();
+            var output = sut.GetOpeningCrawls();
 
             Assert.NotNull(output);
         }
