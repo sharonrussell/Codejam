@@ -5,3 +5,12 @@ C:\Git\Codejam\Tests\bin\Debug\nunit.framework.xml
 C:\Git\Codejam\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
 C:\Git\Codejam\Tests\obj\Debug\Tests.dll
 C:\Git\Codejam\Tests\obj\Debug\Tests.pdb
+C:\git\Codejam\CSharp\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\git\Codejam\CSharp\Tests\obj\Debug\Tests.dll
+C:\git\Codejam\CSharp\Tests\obj\Debug\Tests.pdb
+C:\git\Codejam\CSharp\Tests\bin\Debug\Tests.dll
+C:\git\Codejam\CSharp\Tests\bin\Debug\Tests.pdb
+C:\git\Codejam\CSharp\Tests\bin\Debug\Code.dll
+C:\git\Codejam\CSharp\Tests\bin\Debug\nunit.framework.dll
+C:\git\Codejam\CSharp\Tests\bin\Debug\Code.pdb
+C:\git\Codejam\CSharp\Tests\bin\Debug\nunit.framework.xml
